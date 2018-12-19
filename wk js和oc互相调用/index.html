@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <button onclick="clickBtn1()">h5调客户端</button>
+        </div>
+        <div>
+            <button onclick="clickBtn2()">客户端回调给h5</button>
+        </div>
+        <div>
+            <p id="callBackShow"></p>
+        </div>
+    </div>
+</body>
+<script>
+    function clickBtn1(){
+        // alert('clickBtn1')
+        // messageHandlers--与客户端定义的一致
+        window.webkit.messageHandlers.jsToOC.postMessage('clickBtn1');
+
+    }
+    function clickBtn2(){
+        alert('clickBtn2')
+    window.webkit.messageHandlers.jsToOC.postMessage('clickBtn2');
+
+    }
+    // 客户端调用返回给h5
+    function  jsToOC(data){
+        var pp = document.getElementById('callBackShow')
+        pp.innerText=data
+        alert(data)
+    }
+</script>
+</html>
