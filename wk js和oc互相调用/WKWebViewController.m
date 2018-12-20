@@ -75,7 +75,7 @@
         NSLog(@"clickBtn1");
     }else if  ([strMessage isEqualToString:@"clickBtn2"]) {
         NSLog(@"clickBtn2");
-        [self.wkWebview evaluateJavaScript:[NSString stringWithFormat:@"jsToOC('%@')",@"123456"] completionHandler:nil];
+        [self.wkWebview evaluateJavaScript:[NSString stringWithFormat:@"ocToJs('%@')",@"123456"] completionHandler:nil];
 
     }
 }

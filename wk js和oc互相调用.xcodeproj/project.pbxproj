@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B94FB3221CB79D0001EA89B /* UIWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B94FB3121CB79D0001EA89B /* UIWebviewViewController.m */; };
 		9BA596E521C9EC8E00D8437E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA596E421C9EC8E00D8437E /* AppDelegate.m */; };
 		9BA596E821C9EC8E00D8437E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA596E721C9EC8E00D8437E /* ViewController.m */; };
 		9BA596EB21C9EC8E00D8437E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA596E921C9EC8E00D8437E /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B94FB3021CB79D0001EA89B /* UIWebviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebviewViewController.h; sourceTree = "<group>"; };
+		9B94FB3121CB79D0001EA89B /* UIWebviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebviewViewController.m; sourceTree = "<group>"; };
 		9BA596E021C9EC8E00D8437E /* wk js和oc互相调用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wk js和oc互相调用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA596E321C9EC8E00D8437E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BA596E421C9EC8E00D8437E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				9BA596E721C9EC8E00D8437E /* ViewController.m */,
 				9BA596F921C9ED5800D8437E /* WKWebViewController.h */,
 				9BA596FA21C9ED5800D8437E /* WKWebViewController.m */,
+				9B94FB3021CB79D0001EA89B /* UIWebviewViewController.h */,
+				9B94FB3121CB79D0001EA89B /* UIWebviewViewController.m */,
 				9BA596FC21C9F1F400D8437E /* index.html */,
 				9BA596E921C9EC8E00D8437E /* Main.storyboard */,
 				9BA596EC21C9EC9000D8437E /* Assets.xcassets */,
@@ -154,6 +159,7 @@
 				9BA596F321C9EC9000D8437E /* main.m in Sources */,
 				9BA596E521C9EC8E00D8437E /* AppDelegate.m in Sources */,
 				9BA596FB21C9ED5800D8437E /* WKWebViewController.m in Sources */,
+				9B94FB3221CB79D0001EA89B /* UIWebviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
